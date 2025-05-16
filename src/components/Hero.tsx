@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { ArrowDown, Download } from 'lucide-react';
@@ -43,7 +42,11 @@ const Hero = () => {
           </div>
           <div className="order-1 md:order-2 flex justify-center">
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-gold bg-navy-dark flex items-center justify-center">
-              <span className="text-5xl font-serif">IYW</span>
+              <img
+                src="/profile.jpg"
+                alt="Dr. Ibrahim Yahaya Wuni"
+                className="object-cover w-full h-full"
+              />
             </div>
           </div>
         </div>
